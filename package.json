@@ -1,0 +1,23 @@
+{
+  "name": "folkatech_deasty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --reporter mochawesome --reporter-options reportDir=C:/Users/deast/Work/deastyjesica/folkatech_deasty/report_result --overwrite=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "chai": "^5.1.2",
+    "geckodriver": "^5.0.0",
+    "mocha": "^11.0.1",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^131.0.4"
+  }
+}
